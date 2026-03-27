@@ -1,0 +1,112 @@
+{
+  "expectations": [
+    {
+      "id": "eda33f43-3687-491b-becd-263f718abd9b",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "1bf75835-bf16-4a05-ae08-df6b79e18955",
+      "kwargs": {
+        "column": "invoice_date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4ca4afe1-26a4-49be-a6c9-18894a1875a1",
+      "kwargs": {
+        "column": "invoice_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "00e55834-ec02-41c1-9757-6a92aaceac4d",
+      "kwargs": {
+        "column": "quantity",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "fb98d881-7892-411f-924c-ee50de580827",
+      "kwargs": {
+        "column": "price",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "6cd9b749-fdba-421f-a3bf-2b1c2501cfcd",
+      "kwargs": {
+        "column": "product",
+        "value_set": [
+          "Mouse",
+          "Printer",
+          "Monitor",
+          "Laptop",
+          "Phone",
+          "Headphones",
+          "Tablet",
+          "Keyboard"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "50834784-b6c9-47de-ae33-4dc5f1c391a4",
+      "kwargs": {
+        "column": "country",
+        "value_set": [
+          "Colombia",
+          "Ecuador",
+          "Peru",
+          "Chile"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "17eb6013-a9a8-47de-af53-0988d6d52d2d",
+      "kwargs": {
+        "column": "invoice_date",
+        "regex": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "dc14af22-008d-438a-90b5-472fbf6b3704",
+      "kwargs": {
+        "column": "invoice_date",
+        "max_value": "2023-12-31",
+        "min_value": "2023-01-01"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "456b107d-bdc1-4eba-ac19-4639f800fbf2",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
+  "name": "raw_data_suite",
+  "notes": null
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "d87d6f38-be0e-4551-a559-7161d1aa3419",
+      "name": "retail_raw_asset"
+    },
+    "batch_definition": {
+      "id": "e3f10137-4ea3-48c4-9282-af3dbb8a9ad9",
+      "name": "whole_dataframe"
+    },
+    "datasource": {
+      "id": "e23184f2-636a-4e2b-b838-714888f0de04",
+      "name": "retail_raw_source"
+    }
+  },
+  "id": "4f01845e-d1aa-453c-9eaf-3875baa72965",
+  "name": "raw_data_validation",
+  "suite": {
+    "id": "456b107d-bdc1-4eba-ac19-4639f800fbf2",
+    "name": "raw_data_suite"
+  }
+}

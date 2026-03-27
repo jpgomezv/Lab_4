@@ -1,0 +1,135 @@
+{
+  "expectations": [
+    {
+      "id": "80a2067b-9b94-41c7-bba1-f6e895776519",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "04b801c1-9d8a-4e6e-8e1a-ac53e4cb45fe",
+      "kwargs": {
+        "column": "invoice_date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "26679829-ef74-47c0-b55d-d4e84b6ea3c2",
+      "kwargs": {
+        "column": "invoice_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "4924efd0-1632-48b4-b694-916a9fe8bc7c",
+      "kwargs": {
+        "column": "quantity",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "71ee6aa0-f543-486d-848b-7e3aa8adf33c",
+      "kwargs": {
+        "column": "price",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "e105cf19-3d37-4bb1-98a5-a6a400883e5f",
+      "kwargs": {
+        "column": "product",
+        "value_set": [
+          "Mouse",
+          "Printer",
+          "Monitor",
+          "Laptop",
+          "Phone",
+          "Headphones",
+          "Tablet",
+          "Keyboard"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "36159bd6-9e92-4783-9a72-e68d6237f5e2",
+      "kwargs": {
+        "column": "country",
+        "value_set": [
+          "Colombia",
+          "Ecuador",
+          "Peru",
+          "Chile"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "b423defd-cb01-4576-962e-4e4d0495fd70",
+      "kwargs": {
+        "column": "month",
+        "max_value": 12.0,
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "31bd4647-55c7-47a1-8b58-b35fa13b89dc",
+      "kwargs": {
+        "column": "revenue_bin",
+        "value_set": [
+          "Low",
+          "Medium",
+          "High"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "586cce86-18c8-4144-871c-eea608174a93",
+      "kwargs": {
+        "column": "total_revenue",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "4f576f4a-a69e-456f-b763-cb7b083d3b27",
+      "kwargs": {
+        "column": "invoice_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "24a7ce0a-fc29-4597-929d-3e339de9a932",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
+  "name": "clean_data_suite",
+  "notes": null
+}

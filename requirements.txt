@@ -1,0 +1,6 @@
+pandas
+great_expectations
+matplotlib
+seaborn
+numpy
+ipykernel

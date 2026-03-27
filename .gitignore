@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+build/
+dist/
+wheels/
+*.egg-info
+
+# virtual environments
+.venv/
+venv/
+ENV/
+
+# lab files
+.lab_files/
+
+# logs
+logs/*
+!logs/.gitkeep
+
+# data
+data/raw/*
+!data/raw/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+
+# testing ipynb
+testing.ipynb

@@ -1,0 +1,48 @@
+{
+  "expectations": [
+    {
+      "id": "7fcb3517-a003-4c37-9043-ce33d07fdd62",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "4635cfdf-2fd0-4622-b8c1-4790da68dfd3",
+      "kwargs": {
+        "column": "invoice_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "2da93f1d-582b-4ff0-9725-78ad2ff0109f",
+      "kwargs": {
+        "column": "quantity",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "bf1914d6-f920-4338-b60f-626110c9d7eb",
+      "kwargs": {
+        "column": "price",
+        "min_value": 0.01
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "608354cc-65fb-4e3e-ac3c-a1d11da8b567",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
+  "name": "nb_raw_data_suite",
+  "notes": null
+}
