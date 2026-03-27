@@ -1569,7 +1569,6 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 20946,1033.0,Headphones,1,268.67,268.67,Chile,2023-04-01
 20506,1413.0,Phone,4,376.36,1505.44,Ecuador,2023/05/15
 26719,1250.0,Mouse,8,107.4,859.2,Ecuador,2023-12-27
-28435,1246.0,Laptop,8,724.63,5797.04,colombia,unknown
 28697,1268.0,Tablet,3,845.92,2537.76,Peru,2023-10-31
 26360,1140.0,Headphones,4,335.95,1343.8,colombia,2023-01-03
 23590,1415.0,Tablet,2,55.01,110.02,CO,2023-10-14
@@ -3041,7 +3040,6 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 22914,1088.0,Mouse,4,964.81,3859.24,CO,2023-10-07
 23870,1141.0,Phone,3,647.99,1943.97,Peru,2023-11-21
 26546,1226.0,Phone,1,807.52,807.52,Colombia,2023-08-26
-20395,1488.0,Keyboard,1,270.94,270.94,CO,unknown
 20938,1442.0,Monitor,1,815.12,815.12,Peru,2023-12-31
 22510,1221.0,Monitor,5,330.01,1650.05,Chile,2023-04-23
 23690,1067.0,Headphones,4,473.95,1895.8,colombia,2023-04-23

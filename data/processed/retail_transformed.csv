@@ -190,7 +190,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 20215,1339,Monitor,9,439.71,3957.39,Peru,2023-09-27,2023,9,Wednesday,High
 27605,1285,Tablet,7,603.89,4227.23,Colombia,2023-01-24,2023,1,Tuesday,High
 29915,1445,Mouse,5,56.59,282.95,Ecuador,2023-10-07,2023,10,Saturday,Low
-29784,1330,Printer,7,864.14,6048.98,Colombia,2023-01-04,2023,1,Wednesday,High
+29784,1330,Printer,7,864.14,6048.98,Colombia,2023-04-01,2023,4,Saturday,High
 22606,1127,Phone,1,814.29,814.29,Ecuador,2023-10-09,2023,10,Monday,Low
 28350,1347,Tablet,9,915.2,8236.8,Colombia,2023-06-06,2023,6,Tuesday,High
 24781,1472,Mouse,6,632.14,3792.84,Colombia,2023-11-02,2023,11,Thursday,High
@@ -268,7 +268,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 22787,1239,Phone,4,670.74,2682.96,Ecuador,2023-12-19,2023,12,Tuesday,Medium
 29653,1096,Monitor,2,63.67,127.34,Peru,2023-07-06,2023,7,Thursday,Low
 23318,1123,Phone,5,958.25,4791.25,Peru,2023-09-05,2023,9,Tuesday,High
-28858,1186,Laptop,7,118.26,827.82,Peru,2023-02-03,2023,2,Friday,Low
+28858,1186,Laptop,7,118.26,827.82,Peru,2023-03-02,2023,3,Thursday,Low
 26689,1325,Tablet,7,573.79,4016.53,Ecuador,2023-07-08,2023,7,Saturday,High
 22176,1463,Phone,8,607.55,4860.4,Ecuador,2023-04-06,2023,4,Thursday,High
 23743,1348,Keyboard,5,868.41,4342.05,Ecuador,2023-04-07,2023,4,Friday,High
@@ -306,7 +306,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 24557,1001,Phone,3,812.33,2436.99,Ecuador,2023-11-17,2023,11,Friday,Medium
 22179,1384,Headphones,3,239.0,717.0,Colombia,2023-05-16,2023,5,Tuesday,Low
 29065,1303,Phone,7,671.34,4699.38,Colombia,2023-11-21,2023,11,Tuesday,High
-28275,1253,Headphones,2,584.43,1168.86,Ecuador,2023-04-12,2023,4,Wednesday,Medium
+28275,1253,Headphones,2,584.43,1168.86,Ecuador,2023-12-04,2023,12,Monday,Medium
 21422,1139,Keyboard,2,842.23,1684.46,Peru,2023-02-02,2023,2,Thursday,Medium
 24316,1036,Printer,5,187.05,935.25,Chile,2023-11-30,2023,11,Thursday,Low
 26696,1159,Headphones,6,478.15,2868.9,Peru,2023-12-11,2023,12,Monday,Medium
@@ -825,7 +825,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 25660,1404,Tablet,7,357.84,2504.88,Ecuador,2023-01-17,2023,1,Tuesday,Medium
 24478,1495,Monitor,5,356.36,1781.8,Colombia,2023-05-08,2023,5,Monday,Medium
 23521,1005,Mouse,8,787.9,6303.2,Colombia,2023-06-30,2023,6,Friday,High
-20572,1475,Monitor,4,217.56,870.24,Ecuador,2023-08-01,2023,8,Tuesday,Low
+20572,1475,Monitor,4,217.56,870.24,Ecuador,2023-01-08,2023,1,Sunday,Low
 27082,1464,Printer,2,989.29,1978.58,Colombia,2023-12-08,2023,12,Friday,Medium
 25395,1350,Mouse,3,215.94,647.82,Chile,2023-03-11,2023,3,Saturday,Low
 22258,1132,Keyboard,6,811.58,4869.48,Chile,2023-05-22,2023,5,Monday,High
@@ -1050,7 +1050,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 21117,1151,Mouse,3,894.71,2684.13,Peru,2023-05-15,2023,5,Monday,Medium
 26992,1246,Printer,1,232.65,232.65,Peru,2023-04-18,2023,4,Tuesday,Low
 20142,1242,Mouse,8,374.11,2992.88,Colombia,2023-10-29,2023,10,Sunday,Medium
-23435,1039,Monitor,4,702.55,2810.2,Ecuador,2023-02-12,2023,2,Sunday,Medium
+23435,1039,Monitor,4,702.55,2810.2,Ecuador,2023-12-02,2023,12,Saturday,Medium
 26622,1228,Tablet,5,516.91,2584.55,Colombia,2023-11-07,2023,11,Tuesday,Medium
 27069,1035,Laptop,2,347.61,695.22,Colombia,2023-06-13,2023,6,Tuesday,Low
 22786,1074,Printer,4,983.12,3932.48,Peru,2023-01-06,2023,1,Friday,High
@@ -1236,7 +1236,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 22402,1496,Keyboard,9,954.8,8593.2,Peru,2023-10-08,2023,10,Sunday,High
 24895,1091,Printer,8,734.33,5874.64,Colombia,2023-12-25,2023,12,Monday,High
 29343,1377,Headphones,2,315.48,630.96,Chile,2023-04-23,2023,4,Sunday,Low
-21956,1392,Laptop,6,48.23,289.38,Ecuador,2023-12-11,2023,12,Monday,Low
+21956,1392,Laptop,6,48.23,289.38,Ecuador,2023-11-12,2023,11,Sunday,Low
 23907,1028,Headphones,7,879.73,6158.11,Colombia,2023-10-31,2023,10,Tuesday,High
 20807,1461,Monitor,7,730.12,5110.84,Ecuador,2023-11-08,2023,11,Wednesday,High
 28378,1295,Phone,4,192.52,770.08,Chile,2023-08-05,2023,8,Saturday,Low
@@ -1246,7 +1246,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 25313,1256,Laptop,9,972.79,8755.11,Ecuador,2023-06-27,2023,6,Tuesday,High
 20757,1301,Monitor,9,203.47,1831.23,Colombia,2023-03-19,2023,3,Sunday,Medium
 24887,1100,Laptop,2,681.99,1363.98,Colombia,2023-08-27,2023,8,Sunday,Medium
-29772,1109,Headphones,1,185.27,185.27,Chile,2023-09-02,2023,9,Saturday,Low
+29772,1109,Headphones,1,185.27,185.27,Chile,2023-02-09,2023,2,Thursday,Low
 20961,1419,Headphones,9,34.77,312.93,Chile,2023-03-12,2023,3,Sunday,Low
 23847,1181,Mouse,7,614.41,4300.87,Chile,2023-12-20,2023,12,Wednesday,High
 22418,1318,Headphones,8,88.34,706.72,Chile,2023-12-18,2023,12,Monday,Low
@@ -1739,10 +1739,10 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 21366,1016,Tablet,5,641.02,3205.1,Colombia,2023-02-23,2023,2,Thursday,High
 29211,1359,Phone,3,780.82,2342.46,Colombia,2023-01-11,2023,1,Wednesday,Medium
 26453,1222,Mouse,5,675.99,3379.95,Ecuador,2023-05-15,2023,5,Monday,High
-26671,1353,Headphones,4,900.88,3603.52,Peru,2023-05-06,2023,5,Saturday,High
+26671,1353,Headphones,4,900.88,3603.52,Peru,2023-06-05,2023,6,Monday,High
 24539,1447,Laptop,9,552.15,4969.35,Chile,2023-07-25,2023,7,Tuesday,High
 28876,1343,Laptop,8,130.53,1044.24,Chile,2023-01-08,2023,1,Sunday,Low
-22887,1364,Phone,9,375.63,3380.67,Ecuador,2023-05-04,2023,5,Thursday,High
+22887,1364,Phone,9,375.63,3380.67,Ecuador,2023-04-05,2023,4,Wednesday,High
 29654,1162,Headphones,8,393.97,3151.76,Chile,2023-09-26,2023,9,Tuesday,High
 22261,1325,Keyboard,4,907.83,3631.32,Ecuador,2023-05-17,2023,5,Wednesday,High
 24180,1466,Keyboard,5,216.44,1082.2,Colombia,2023-08-31,2023,8,Thursday,Low
@@ -1875,7 +1875,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 24327,1300,Laptop,6,148.92,893.52,Ecuador,2023-03-08,2023,3,Wednesday,Low
 23655,1288,Keyboard,9,423.64,3812.76,Ecuador,2023-10-04,2023,10,Wednesday,High
 23793,1101,Keyboard,4,710.39,2841.56,Peru,2023-10-09,2023,10,Monday,Medium
-29947,1424,Keyboard,5,605.36,3026.8,Colombia,2023-08-21,2023,8,Monday,Medium
+29947,1424,Keyboard,5,605.36,3026.8,Colombia,2023-08-21,2023,8,Monday,High
 26738,1391,Keyboard,6,564.87,3389.22,Ecuador,2023-12-01,2023,12,Friday,High
 21577,1266,Headphones,8,677.7,5421.6,Colombia,2023-01-28,2023,1,Saturday,High
 29488,1213,Laptop,8,944.99,7559.92,Colombia,2023-08-29,2023,8,Tuesday,High
@@ -1885,14 +1885,14 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 26691,1400,Laptop,3,108.03,324.09,Ecuador,2023-09-11,2023,9,Monday,Low
 23992,1075,Monitor,6,407.31,2443.86,Chile,2023-11-06,2023,11,Monday,Medium
 20913,1376,Tablet,4,178.14,712.56,Peru,2023-08-08,2023,8,Tuesday,Low
-27037,1085,Keyboard,3,969.84,2909.52,Peru,2023-04-02,2023,4,Sunday,Medium
+27037,1085,Keyboard,3,969.84,2909.52,Peru,2023-02-04,2023,2,Saturday,Medium
 29381,1160,Printer,4,337.6,1350.4,Peru,2023-03-06,2023,3,Monday,Medium
 26221,1423,Phone,7,52.96,370.72,Colombia,2023-11-07,2023,11,Tuesday,Low
 27090,1415,Tablet,9,506.55,4558.95,Peru,2023-03-07,2023,3,Tuesday,High
 27769,1241,Headphones,4,179.8,719.2,Chile,2023-08-19,2023,8,Saturday,Low
 24661,1001,Keyboard,5,671.58,3357.9,Peru,2023-05-31,2023,5,Wednesday,High
 29399,1224,Keyboard,8,617.32,4938.56,Colombia,2023-08-06,2023,8,Sunday,High
-21894,1288,Mouse,5,657.26,3286.3,Chile,2023-10-05,2023,10,Thursday,High
+21894,1288,Mouse,5,657.26,3286.3,Chile,2023-05-10,2023,5,Wednesday,High
 26322,1413,Keyboard,6,388.21,2329.26,Colombia,2023-03-06,2023,3,Monday,Medium
 23797,1076,Monitor,9,378.47,3406.23,Peru,2023-09-07,2023,9,Thursday,High
 29836,1153,Mouse,5,439.62,2198.1,Peru,2023-11-20,2023,11,Monday,Medium
@@ -2026,7 +2026,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 26362,1256,Printer,1,347.27,347.27,Colombia,2023-07-17,2023,7,Monday,Low
 29743,1132,Tablet,4,82.25,329.0,Ecuador,2023-10-20,2023,10,Friday,Low
 28683,1275,Headphones,6,479.98,2879.88,Ecuador,2023-08-13,2023,8,Sunday,Medium
-20585,1312,Keyboard,8,221.35,1770.8,Ecuador,2023-11-07,2023,11,Tuesday,Medium
+20585,1312,Keyboard,8,221.35,1770.8,Ecuador,2023-07-11,2023,7,Tuesday,Medium
 20534,1373,Phone,5,229.45,1147.25,Ecuador,2023-06-26,2023,6,Monday,Medium
 24011,1283,Keyboard,9,346.82,3121.38,Colombia,2023-06-14,2023,6,Wednesday,High
 25966,1420,Printer,8,872.46,6979.68,Ecuador,2023-02-16,2023,2,Thursday,High
@@ -2197,7 +2197,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 23342,1419,Phone,4,835.27,3341.08,Ecuador,2023-11-03,2023,11,Friday,High
 29602,1157,Keyboard,7,764.06,5348.42,Ecuador,2023-11-23,2023,11,Thursday,High
 26085,1145,Keyboard,3,125.7,377.1,Peru,2023-04-19,2023,4,Wednesday,Low
-21172,1432,Phone,1,435.52,435.52,Ecuador,2023-09-03,2023,9,Sunday,Low
+21172,1432,Phone,1,435.52,435.52,Ecuador,2023-03-09,2023,3,Thursday,Low
 24517,1131,Monitor,5,438.16,2190.8,Colombia,2023-11-27,2023,11,Monday,Medium
 21641,1344,Phone,9,614.4,5529.6,Colombia,2023-08-26,2023,8,Saturday,High
 22940,1458,Phone,9,91.98,827.82,Peru,2023-02-20,2023,2,Monday,Low
@@ -2275,7 +2275,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 20193,1018,Laptop,8,314.22,2513.76,Colombia,2023-04-17,2023,4,Monday,Medium
 23257,1067,Phone,8,142.95,1143.6,Ecuador,2023-06-11,2023,6,Sunday,Medium
 23235,1217,Laptop,1,895.58,895.58,Chile,2023-04-22,2023,4,Saturday,Low
-20942,1101,Phone,8,350.01,2800.08,Chile,2023-08-04,2023,8,Friday,Medium
+20942,1101,Phone,8,350.01,2800.08,Chile,2023-04-08,2023,4,Saturday,Medium
 25720,1287,Printer,4,584.03,2336.12,Peru,2023-11-24,2023,11,Friday,Medium
 24957,1108,Printer,2,969.64,1939.28,Peru,2023-04-04,2023,4,Tuesday,Medium
 22880,1352,Headphones,9,597.74,5379.66,Colombia,2023-06-26,2023,6,Monday,High
@@ -2306,7 +2306,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 21798,1257,Laptop,4,704.58,2818.32,Colombia,2023-09-12,2023,9,Tuesday,Medium
 25159,1101,Printer,3,183.09,549.27,Chile,2023-03-16,2023,3,Thursday,Low
 28446,1208,Monitor,8,668.9,5351.2,Colombia,2023-01-03,2023,1,Tuesday,High
-21876,1470,Tablet,5,223.33,1116.65,Colombia,2023-01-16,2023,1,Monday,Low
+21876,1470,Tablet,5,223.33,1116.65,Colombia,2023-01-16,2023,1,Monday,Medium
 26154,1285,Keyboard,9,732.58,6593.22,Ecuador,2023-10-30,2023,10,Monday,High
 27787,1115,Laptop,5,204.18,1020.9,Ecuador,2023-02-19,2023,2,Sunday,Low
 23734,1149,Mouse,5,686.62,3433.1,Colombia,2023-05-25,2023,5,Thursday,High
@@ -2384,7 +2384,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 29266,1346,Mouse,2,713.56,1427.12,Colombia,2023-08-12,2023,8,Saturday,Medium
 24784,1465,Keyboard,6,69.04,414.24,Colombia,2023-01-12,2023,1,Thursday,Low
 26617,1205,Headphones,5,707.74,3538.7,Ecuador,2023-10-09,2023,10,Monday,High
-23151,1275,Laptop,1,379.73,379.73,Colombia,2023-01-12,2023,1,Thursday,Low
+23151,1275,Laptop,1,379.73,379.73,Colombia,2023-12-01,2023,12,Friday,Low
 25580,1465,Phone,1,412.92,412.92,Colombia,2023-10-24,2023,10,Tuesday,Low
 27054,1255,Mouse,5,340.12,1700.6,Peru,2023-07-02,2023,7,Sunday,Medium
 27706,1265,Phone,8,736.52,5892.16,Colombia,2023-05-15,2023,5,Monday,High
@@ -2399,7 +2399,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 26851,1237,Phone,4,610.0,2440.0,Colombia,2023-08-04,2023,8,Friday,Medium
 27865,1435,Tablet,4,407.2,1628.8,Peru,2023-12-25,2023,12,Monday,Medium
 23317,1386,Headphones,7,765.97,5361.79,Colombia,2023-03-14,2023,3,Tuesday,High
-20164,1424,Mouse,4,859.22,3436.88,Colombia,2023-09-08,2023,9,Friday,High
+20164,1424,Mouse,4,859.22,3436.88,Colombia,2023-08-09,2023,8,Wednesday,High
 27060,1389,Headphones,5,807.99,4039.95,Peru,2023-06-03,2023,6,Saturday,High
 23057,1024,Keyboard,4,271.62,1086.48,Colombia,2023-01-31,2023,1,Tuesday,Low
 24428,1140,Tablet,9,992.8,8935.2,Chile,2023-10-03,2023,10,Tuesday,High
@@ -2995,7 +2995,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 25906,1116,Headphones,7,519.09,3633.63,Peru,2023-07-08,2023,7,Saturday,High
 27860,1436,Headphones,8,645.33,5162.64,Colombia,2023-05-15,2023,5,Monday,High
 26732,1141,Tablet,7,514.02,3598.14,Chile,2023-12-27,2023,12,Wednesday,High
-22513,1483,Keyboard,4,804.38,3217.52,Peru,2023-01-07,2023,1,Saturday,High
+22513,1483,Keyboard,4,804.38,3217.52,Peru,2023-07-01,2023,7,Saturday,High
 27830,1459,Phone,1,32.86,32.86,Colombia,2023-05-14,2023,5,Sunday,Low
 29965,1400,Laptop,1,904.36,904.36,Chile,2023-06-15,2023,6,Thursday,Low
 26944,1038,Tablet,1,135.35,135.35,Peru,2023-11-23,2023,11,Thursday,Low
@@ -3258,7 +3258,7 @@ invoice_id,customer_id,product,quantity,price,total_revenue,country,invoice_date
 26833,1067,Monitor,7,83.21,582.47,Colombia,2023-04-19,2023,4,Wednesday,Low
 29319,1488,Tablet,2,295.28,590.56,Ecuador,2023-09-18,2023,9,Monday,Low
 29850,1304,Keyboard,8,484.75,3878.0,Chile,2023-01-18,2023,1,Wednesday,High
-20889,1341,Monitor,5,138.29,691.45,Colombia,2023-03-10,2023,3,Friday,Low
+20889,1341,Monitor,5,138.29,691.45,Colombia,2023-10-03,2023,10,Tuesday,Low
 26461,1378,Tablet,5,570.15,2850.75,Colombia,2023-01-04,2023,1,Wednesday,Medium
 26166,1342,Phone,1,35.19,35.19,Ecuador,2023-10-27,2023,10,Friday,Low
 29858,1386,Monitor,7,611.64,4281.48,Ecuador,2023-07-31,2023,7,Monday,High

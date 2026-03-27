@@ -1,54 +1,74 @@
 {
+  "name": "raw_data_suite",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
   "expectations": [
     {
-      "id": "eda33f43-3687-491b-becd-263f718abd9b",
+      "id": "eccf6c5c-5252-4267-8a90-05d42407da3e",
+      "type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "customer_id"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_not_be_null"
+      "meta": {
+        "dimension": "Completeness",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "1bf75835-bf16-4a05-ae08-df6b79e18955",
+      "id": "0594bb30-3508-4685-b201-c94635fc297c",
+      "type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "invoice_date"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_not_be_null"
+      "meta": {
+        "dimension": "Completeness",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "4ca4afe1-26a4-49be-a6c9-18894a1875a1",
+      "id": "e30ec1c6-db92-4eda-981b-b434c8667e27",
+      "type": "expect_column_values_to_be_unique",
       "kwargs": {
         "column": "invoice_id"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_unique"
+      "meta": {
+        "dimension": "Uniqueness",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "00e55834-ec02-41c1-9757-6a92aaceac4d",
+      "id": "2217d883-e64f-46ec-8de2-5f53c40af59a",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "quantity",
         "min_value": 1.0
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "fb98d881-7892-411f-924c-ee50de580827",
+      "id": "6b796608-453b-44da-b04b-a41831d595f1",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "price",
         "min_value": 0.01
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "6cd9b749-fdba-421f-a3bf-2b1c2501cfcd",
+      "id": "0c085560-447e-4a05-9222-70eec68e22c7",
+      "type": "expect_column_values_to_be_in_set",
       "kwargs": {
         "column": "product",
         "value_set": [
@@ -62,12 +82,31 @@
           "Keyboard"
         ]
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "50834784-b6c9-47de-ae33-4dc5f1c391a4",
+      "id": "e130f416-6910-496e-99a6-fec0fa4e8a11",
+      "type": "expect_total_revenue_to_match_quantity_times_price",
+      "kwargs": {
+        "column": "total_revenue",
+        "quantity_column": "quantity",
+        "price_column": "price",
+        "tolerance": 0.01
+      },
+      "meta": {
+        "dimension": "Accuracy",
+        "expected_result": "FAIL",
+        "custom_expectation": true
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "692e47bb-edb4-4f14-8b11-fac9b4fb8e0d",
+      "type": "expect_column_values_to_be_in_set",
       "kwargs": {
         "column": "country",
         "value_set": [
@@ -77,36 +116,38 @@
           "Chile"
         ]
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
+      "meta": {
+        "dimension": "Consistency",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "17eb6013-a9a8-47de-af53-0988d6d52d2d",
+      "id": "ae227955-41cf-4e8a-8c6f-d435eedbcfb4",
+      "type": "expect_column_values_to_match_regex",
       "kwargs": {
         "column": "invoice_date",
         "regex": "^\\d{4}-\\d{2}-\\d{2}$"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_match_regex"
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     },
     {
-      "id": "dc14af22-008d-438a-90b5-472fbf6b3704",
+      "id": "c038edd0-14de-4c96-8b06-307419dc2561",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "invoice_date",
-        "max_value": "2023-12-31",
-        "min_value": "2023-01-01"
+        "min_value": "2023-01-01",
+        "max_value": "2023-12-31"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "FAIL"
+      },
+      "severity": "critical"
     }
-  ],
-  "id": "456b107d-bdc1-4eba-ac19-4639f800fbf2",
-  "meta": {
-    "great_expectations_version": "1.15.1"
-  },
-  "name": "raw_data_suite",
-  "notes": null
+  ]
 }

@@ -1,54 +1,74 @@
 {
+  "name": "clean_data_suite",
+  "meta": {
+    "great_expectations_version": "1.15.1"
+  },
   "expectations": [
     {
-      "id": "80a2067b-9b94-41c7-bba1-f6e895776519",
+      "id": "f18b13ed-3481-4062-9f80-936b879ffa4c",
+      "type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "customer_id"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_not_be_null"
+      "meta": {
+        "dimension": "Completeness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "04b801c1-9d8a-4e6e-8e1a-ac53e4cb45fe",
+      "id": "fb118d1f-7dfc-4259-9e49-0d8cc51fd1f6",
+      "type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "invoice_date"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_not_be_null"
+      "meta": {
+        "dimension": "Completeness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "26679829-ef74-47c0-b55d-d4e84b6ea3c2",
+      "id": "efeaf59b-cb68-48b4-849d-e6011c5ce175",
+      "type": "expect_column_values_to_be_unique",
       "kwargs": {
         "column": "invoice_id"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_unique"
+      "meta": {
+        "dimension": "Uniqueness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "4924efd0-1632-48b4-b694-916a9fe8bc7c",
+      "id": "585fbc7e-8f04-4a3e-8f0a-5d45f80295aa",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "quantity",
         "min_value": 1.0
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "71ee6aa0-f543-486d-848b-7e3aa8adf33c",
+      "id": "b1a5981a-0ba1-40bf-ad79-01650c18c2c1",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "price",
         "min_value": 0.01
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "e105cf19-3d37-4bb1-98a5-a6a400883e5f",
+      "id": "62234aa4-b19a-4a12-9ae2-6f57c71bd982",
+      "type": "expect_column_values_to_be_in_set",
       "kwargs": {
         "column": "product",
         "value_set": [
@@ -62,12 +82,30 @@
           "Keyboard"
         ]
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "36159bd6-9e92-4783-9a72-e68d6237f5e2",
+      "id": "89ff9137-d6bd-4f92-b2f9-2f85dee22412",
+      "type": "expect_total_revenue_to_match_quantity_times_price",
+      "kwargs": {
+        "column": "total_revenue",
+        "quantity_column": "quantity",
+        "price_column": "price",
+        "tolerance": 0.01
+      },
+      "meta": {
+        "dimension": "Accuracy",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "ba58bb77-d6f8-4bd8-ab71-4b78b4e8080f",
+      "type": "expect_column_values_to_be_in_set",
       "kwargs": {
         "column": "country",
         "value_set": [
@@ -77,23 +115,68 @@
           "Chile"
         ]
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
+      "meta": {
+        "dimension": "Consistency",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "b423defd-cb01-4576-962e-4e4d0495fd70",
+      "id": "193de04d-6d01-4911-89d5-096b2a564796",
+      "type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "invoice_date",
+        "regex": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "16c2417e-1299-40d8-9633-4be380642655",
+      "type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "invoice_date",
+        "min_value": "2023-01-01",
+        "max_value": "2023-12-31"
+      },
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "bbc46877-59a8-43fb-950f-87096fe5badf",
+      "type": "expect_invoice_date_to_be_parseable_datetime_no_nulls",
+      "kwargs": {
+        "column": "invoice_date"
+      },
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "d63c5b64-9d16-46d9-b0ad-de81c9554467",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "month",
-        "max_value": 12.0,
-        "min_value": 1.0
+        "min_value": 1.0,
+        "max_value": 12.0
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Timeliness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "31bd4647-55c7-47a1-8b58-b35fa13b89dc",
+      "id": "4acae61e-7313-46b8-8e40-a8310c425212",
+      "type": "expect_column_values_to_be_in_set",
       "kwargs": {
         "column": "revenue_bin",
         "value_set": [
@@ -102,34 +185,36 @@
           "High"
         ]
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_in_set"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "586cce86-18c8-4144-871c-eea608174a93",
+      "id": "88375d96-f3ba-4c27-8dc1-27130ff968f3",
+      "type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "total_revenue",
         "min_value": 0.01
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_be_between"
+      "meta": {
+        "dimension": "Validity",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     },
     {
-      "id": "4f576f4a-a69e-456f-b763-cb7b083d3b27",
+      "id": "128e233a-ef9d-4484-9984-4c6ab7158f6d",
+      "type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "invoice_id"
       },
-      "meta": {},
-      "severity": "critical",
-      "type": "expect_column_values_to_not_be_null"
+      "meta": {
+        "dimension": "Uniqueness",
+        "expected_result": "PASS"
+      },
+      "severity": "critical"
     }
-  ],
-  "id": "24a7ce0a-fc29-4597-929d-3e339de9a932",
-  "meta": {
-    "great_expectations_version": "1.15.1"
-  },
-  "name": "clean_data_suite",
-  "notes": null
+  ]
 }

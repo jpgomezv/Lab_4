@@ -27,7 +27,7 @@ def main():
     # Task a: Extract & Profile
     logger.info("--- Task a: Extract & Profile ---")
     df_raw = extract_data(raw_data_path)
-    profile_data(df_raw)
+    profile_data(df_raw, raw_data_path)
 
     # Task b: Input Validation
     logger.info("--- Task b: Input Validation (Great Expectations) ---")
